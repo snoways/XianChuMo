@@ -11,7 +11,7 @@
 }
 
 .left-margin-1x {
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
 
 .right-margin-1x {
@@ -33,7 +33,9 @@
 .bottom-margin-2x {
   margin-bottom: 20px !important;
 }
-
+.right-margin-3x{
+  margin-right: 2.5%!important;
+}
 .right-margin-2x {
   margin-right: 20px !important;
 }
@@ -41,7 +43,13 @@
 *{
   list-style-type: none;
 }
-
+//颜色类
+@PC-green:#A7C731;//管理员的主色调
+@PC-black:#1A1C1A;//管理员左边li的hover的颜色
+@Center-blue:#53D2D8;//管理中心的主色调
+@Center-menu:#409EA0;//管理中心左边菜单栏颜色
+@Center-lessBlue:rgba(83,210,216,0.5);//管理中心左边li的hover的颜色
+@Center-btn-hover:rgba(83,210,216,0.7);//管理中心中按钮hover的颜色
 body {
   font-family: "微软雅黑", serif;
   background-color: #414C3A !important;
@@ -49,7 +57,7 @@ body {
   .clearfix();
   .header {
     height: 75px;
-    background: #A7C731;
+    background: @PC-green;
     h1 {
       margin: 0 0 0 20px;
       height: 75px;
@@ -122,13 +130,13 @@ body {
         }
       }
       li:hover {
-        background: #1A1C1A;
+        background: @PC-black;
       }
       .active {
-        background: #A7C731;
+        background: @PC-green;
       }
       .active:hover {
-        background: #A7C731;
+        background: @PC-green;
       }
       li:first-child a {
         background: url("../../img/001.png") no-repeat 0 center;
@@ -182,7 +190,7 @@ body {
       width: 97%;
       min-height: 500px;
       margin: 20px auto;
-      border-top: solid 2px #A7C731;
+      border-top: solid 2px @PC-green;
       background: white;
       .clearfix();
       //主内容的header
@@ -289,10 +297,7 @@ body {
       }
       > .btn {
         margin: 20px 0;
-        width: 130px;
-        height: 40px;
-        line-height: 40px;
-        padding: 0;
+        padding:5px 15px;
       }
       > .btn:first-of-type {
         margin-left: 24px;
@@ -301,7 +306,7 @@ body {
         border: none;
       }
       .btn-primary {
-        background-color: #A7C731;
+        background-color: @PC-green;
       }
       .btn-primary:hover {
         background-color: #8BA231;
@@ -322,11 +327,16 @@ body {
         th, td {
           vertical-align: middle;
           text-align: center;
+          input{
+            display: inline-block;
+            margin-right: 2px;
+          }
         }
       }
       .page-divider {
         float: right;
         margin: 20px;
+        margin-right: 2.5%
       }
     }
   }
@@ -352,3 +362,74 @@ body {
     }
   }
 }
+  //中心管理蓝色调样式
+  #productManage{
+    >.header{
+      height:75px;
+      background: @Center-blue;
+      h1 {
+        padding-left: 150px;
+        background: url("../../img/pm-transparent-logo.png") no-repeat 0 center;
+      }
+    }
+    .list-group{
+      li:hover {
+        background: @Center-lessBlue;
+      }
+      .active {
+        background: @Center-blue;
+      }
+      .active:hover {
+        background: @Center-blue;
+      }
+      li:first-child a {
+        background: url("../../img/pm-product.png") no-repeat 0 center;
+      }
+      li:nth-child(2) a {
+        background: url("../../img/pm-house.png") no-repeat 0 center;
+      }
+      li:nth-child(3) a {
+        background: url("../../img/pm-person.png") no-repeat 0 center;
+      }
+      li:nth-child(4) a {
+        background: url("../../img/pm-orders.png") no-repeat 0 center;
+      }
+    }
+    //左边
+    .main-menu{
+      background: @Center-menu;
+      img{
+        float: none;
+        margin-left: 40px;
+      }
+      h3{
+        font-weight: 100;
+        color:#FFFFFF;
+        margin:0px;
+        padding: 0px; 
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    }
+    .main-content{
+      .main-content-header{
+        font-size: 28px;
+        font-weight: 100;
+        color:@Center-blue;
+        // span{
+        //   display: inline-block;
+        //   width:30px;
+        //   height:30px;
+        //   background-image: url("../../img/pm-product.png");
+        //   background-size: 100% 100%;
+        // }
+      }
+      border-top:none;
+      .btn-primary {
+        background-color: @Center-blue;
+        &:hover {
+          background-color: @Center-btn-hover;
+        }
+      }
+    }
+  }

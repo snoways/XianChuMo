@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.header {
+  height: 75px;
+  width: 90%;
+  margin: 20px auto;
+}
+.header h1 {
+  height: 75px;
+  line-height: 75px;
+  font-size: 38px;
+  color: #53d2d8;
+  padding-left: 150px;
+  background: url("../../img/pm-logo.png") no-repeat 0 center;
+}
