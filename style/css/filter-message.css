@@ -110,3 +110,19 @@
 .container .content .form-group label {
   margin-top: 7px;
 }
+.container .content .form-group input {
+  border: solid 1px #53d2d8;
+}
+.container .content .form-group .add-img {
+  float: left;
+  display: inline;
+  font-size: 36px;
+  font-weight: 100;
+  padding: 0px 15px;
+  color: #53d2d8;
+  border: solid 1px #53d2d8;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}
