@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.bottom-margin-1x {
+  margin-bottom: 5px;
+}
+.bottom-margin-2x {
+  margin-bottom: 10px;
+}
 .active {
   background-color: #53d2d8 !important;
 }
@@ -96,6 +102,7 @@
   margin: 0 auto;
 }
 .container .content .form-group {
+  position: relative;
   *zoom: 1;
 }
 .container .content .form-group:before,
@@ -114,15 +121,25 @@
   border: solid 1px #53d2d8;
 }
 .container .content .form-group .add-img {
-  float: left;
-  display: inline;
+  position: relative;
+  top: 0px;
+  left: 0px;
   font-size: 36px;
   font-weight: 100;
   padding: 0px 15px;
   color: #53d2d8;
   border: solid 1px #53d2d8;
   border-radius: 10px;
+  cursor: pointer;
 }
-.hidden {
-  display: none;
+.img-load {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  width: 52px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0px;
+  opacity: 0;
 }
