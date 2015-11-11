@@ -47,6 +47,17 @@
 //当前填写订单active主色调
 @filter-color: #A7E8EC;
 //填写订单主色调
+
+//微调类
+.bottom-margin-1x {
+  margin-bottom: 5px;
+}
+
+.bottom-margin-2x {
+  margin-bottom: 10px;
+}
+
+//
 .active {
   background-color: @active-color !important;
 }
@@ -68,7 +79,7 @@
 .step-progress {
   @height: 30px;
   height: @height;
-  width: 1215px;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 30px;
   .progress-list {
@@ -117,16 +128,34 @@
     width: 50%;
     margin: 0 auto;
     .form-group {
+      position: relative;
       .clearfix();
       label {
         margin-top: 7px;
       }
+      input {
+        border: solid 1px @active-color;
+      }
+      .add-img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        color: @active-color;
+        font-size: 36px;
+        font-weight: 100;
+        padding: 0px 15px;
+        color: @active-color;
+        border: solid 1px @active-color;
+        border-radius: 10px;
+        cursor: pointer;
+      }
     }
-    .first-recipe{
+    //以下是填写食谱信息页面的样式
+    .first-recipe {
       text-align: center;
       font-size: 20px;
     }
-    .file-chooser, .file-input{
+    .file-chooser, .file-input {
       position: absolute;
       left: 65%;
       top: 20px;
@@ -143,36 +172,50 @@
       color: #9BE4E7;
       z-index: 10;
     }
-    .fill-form{
+    .fill-form {
       position: relative;
       .clearfix();
     }
-    .file-input{
+    .file-input {
       z-index: 11;
       opacity: 0;
     }
-    .fill-recipe-form-group{
+    .fill-recipe-form-group {
       float: left;
       margin-top: 20px;
       width: 200px;
-      .input-group-addon{
+      .input-group-addon {
         background: @filter-color;
       }
     }
-    .no-selected{
+    .no-selected {
       position: absolute;
       top: 215px;
       left: 247px;
     }
-    .add-step{
+    .add-step {
       min-width: 124px;
       float: right;
       margin: 260px 20px 0 0;
     }
-    .add-step-submit{
+    .add-step-submit {
       min-width: 124px;
       float: right;
       margin: 260px 62px 0 0;
     }
+    //以上是填写食谱信息页面的样式
   }
+}
+
+//隐藏文件选择按钮
+.img-load {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+  width: 52px;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0px;
+  opacity: 0;
 }
