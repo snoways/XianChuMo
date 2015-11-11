@@ -1,73 +1,80 @@
 <!doctype html>
 <html lang="zh-cn">
 <head>
-	<meta charset="UTF-8">
-	<title>鲜出没中心管理系统</title>
-	<link rel="stylesheet" href="../../style/css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="../../style/css/filter-message.css"/>
+    <meta charset="UTF-8">
+    <title>鲜出没中心管理系统</title>
+    <link rel="stylesheet" href="../../style/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../../style/css/filter-message.css"/>
 </head>
 <body>
-	<div class="header">
-		<h1>中心管理系统</h1>
-	</div>
-	<div class="step-progress">
-		<ul class="progress-list">
-			<li class="long-li active">
-				请填写产品信息
-			</li>
-			<span class="right-angle-active"></span>
-			<span class="hollow-angle"></span>
-			<li class="long-li"></li>
-			<span class="right-angle"></span>
-			<span class="hollow-angle"></span>
-			<li class="long-li"></li>
-		</ul>
-	</div>
-	<div class="container">
-		<div class="content">
-			<form role="form">
-				<div class="item" id="brand-a">
-					<div class="form-group">
-						<label for="type" class="col-sm-3">产品名称:</label>
-						<div class="col-sm-6">
-							<input type="text"  class="form-control" />
-						</div>
-					</div>
+<div class="header">
+    <h1>中心管理系统</h1>
+</div>
+<div class="step-progress">
+    <ul class="progress-list">
+        <li class="long-li active">
+            请填写产品信息
+        </li>
+        <span class="right-angle-active"></span>
+        <span class="hollow-angle"></span>
+        <li class="long-li"></li>
+        <span class="right-angle"></span>
+        <span class="hollow-angle"></span>
+        <li class="long-li"></li>
+    </ul>
+</div>
+<div class="container">
+    <div class="content">
+        <form role="form">
+            <div class="item" id="brand-a">
+                <div class="form-group">
+                    <label for="type" class="col-sm-3">产品名称:</label>
 
-					<div class="form-group">
-						<label for="brand" class="col-sm-3">产品单价:</label>
-						<div class="col-sm-6">
-							<input type="text" class="form-control" />
-						</div>
-					</div>
+                    <div class="col-sm-6">
+                        <input type="text" id="type" class="form-control"/>
+                    </div>
+                </div>
 
-					<div class="form-group">
-						<label for="application" class="col-sm-3">产品规格:</label>
-						<div class="col-sm-6">
-							<input type="text"  class="form-control" />
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="grade" class="col-sm-3">产地:</label>
-						<div class="col-sm-6">
-							<input type="text" class="form-control" />
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="identification" class="col-sm-3">产品介绍:</label>
-						<div class="col-sm-6">
-							<input type="text"  class="form-control" />
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="pack" class="col-sm-3">产品营养价值:</label>
-						<div class="col-sm-6">
-							<input type="text" class="form-control" />
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
+                <div class="form-group">
+                    <label for="brand" class="col-sm-3">产品单价:</label>
 
-	</body>
-	</html>
+                    <div class="col-sm-6">
+                        <input type="text" id="brand" class="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="application" class="col-sm-3">产品规格:</label>
+
+                    <div class="col-sm-6">
+                        <input type="text" id="application" class="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="grade" class="col-sm-3">产地:</label>
+
+                    <div class="col-sm-6">
+                        <input type="text" id="grade" class="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="identification" class="col-sm-3">产品介绍:</label>
+
+                    <div class="col-sm-6">
+                        <input type="text" id="identification" class="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="pack" class="col-sm-3">产品营养价值:</label>
+
+                    <div class="col-sm-6">
+                        <input type="text" id="pack" class="form-control"/>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
