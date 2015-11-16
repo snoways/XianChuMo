@@ -32,6 +32,9 @@
 * {
   list-style-type: none;
 }
+a.btn.disabled {
+  pointer-events: auto;
+}
 body {
   font-family: "微软雅黑", serif;
   background-color: #414C3A !important;
@@ -49,7 +52,7 @@ body:after {
 }
 body .header {
   height: 75px;
-  background: #A7C731;
+  background: #a7c731;
 }
 body .header h1 {
   margin: 0 0 0 20px;
@@ -132,13 +135,13 @@ body .main-menu .list-group li a:active {
   text-decoration: none;
 }
 body .main-menu .list-group li:hover {
-  background: #1A1C1A;
+  background: #1a1c1a;
 }
 body .main-menu .list-group .active {
-  background: #A7C731;
+  background: #a7c731;
 }
 body .main-menu .list-group .active:hover {
-  background: #A7C731;
+  background: #a7c731;
 }
 body .main-menu .list-group li:first-child a {
   background: url("../../img/001.png") no-repeat 0 center;
@@ -185,7 +188,7 @@ body .content .main-content {
   width: 97%;
   min-height: 500px;
   margin: 20px auto;
-  border-top: solid 2px #A7C731;
+  border-top: solid 2px #a7c731;
   background: white;
   *zoom: 1;
 }
@@ -314,7 +317,7 @@ body .content .main-content .btn-border-none {
   border: none;
 }
 body .content .main-content .btn-primary {
-  background-color: #A7C731;
+  background-color: #a7c731;
 }
 body .content .main-content .btn-primary:hover {
   background-color: #8BA231;
@@ -378,43 +381,22 @@ body .trade-time .time {
   width: 230px;
   display: inline-block;
 }
-#productManage > .header {
+.comment > .header {
   height: 75px;
-  background: #53D2D8;
+  background: #53d2d8;
 }
-#productManage > .header h1 {
+.comment > .header h1 {
   padding-left: 150px;
   background: url("../../img/pm-transparent-logo.png") no-repeat 0 center;
 }
-#productManage .list-group li:hover {
-  background: rgba(83, 210, 216, 0.5);
+.comment .main-menu {
+  background: #409ea0;
 }
-#productManage .list-group .active {
-  background: #53D2D8;
-}
-#productManage .list-group .active:hover {
-  background: #53D2D8;
-}
-#productManage .list-group li:first-child a {
-  background: url("../../img/pm-product.png") no-repeat 0 center;
-}
-#productManage .list-group li:nth-child(2) a {
-  background: url("../../img/pm-house.png") no-repeat 0 center;
-}
-#productManage .list-group li:nth-child(3) a {
-  background: url("../../img/pm-person.png") no-repeat 0 center;
-}
-#productManage .list-group li:nth-child(4) a {
-  background: url("../../img/pm-orders.png") no-repeat 0 center;
-}
-#productManage .main-menu {
-  background: #409EA0;
-}
-#productManage .main-menu img {
-  float: none;
+.comment .main-menu img {
+  float: none !important;
   margin-left: 40px;
 }
-#productManage .main-menu h3 {
+.comment .main-menu h3 {
   font-weight: 100;
   color: #FFFFFF;
   margin: 0px;
@@ -422,17 +404,125 @@ body .trade-time .time {
   margin-top: 10px;
   margin-left: 20px;
 }
+.comment .main-menu .list-group li:hover {
+  background: rgba(83, 210, 216, 0.5);
+}
+.comment .main-menu .list-group .active {
+  background: #53d2d8;
+}
+.comment .main-menu .list-group .active:hover {
+  background: #53d2d8;
+}
+.comment .main-menu .list-group li:first-child a {
+  background: url("../../img/pm-product.png") no-repeat 0 center;
+}
+.comment .main-menu .list-group li:nth-child(2) a {
+  background: url("../../img/pm-house.png") no-repeat 0 center;
+}
+.comment .main-menu .list-group li:nth-child(3) a {
+  background: url("../../img/pm-person.png") no-repeat 0 center;
+}
+.comment .main-menu .list-group li:nth-child(4) a {
+  background: url("../../img/pm-orders.png") no-repeat 0 center;
+}
 #productManage .main-content {
   border-top: none;
 }
 #productManage .main-content .main-content-header {
   font-size: 28px;
   font-weight: 100;
-  color: #53D2D8;
+  color: #53d2d8;
 }
 #productManage .main-content .btn-primary {
-  background-color: #53D2D8;
+  background-color: #53d2d8;
 }
 #productManage .main-content .btn-primary:hover {
   background-color: rgba(83, 210, 216, 0.7);
+}
+#orderManage .main-content {
+  border-top: none;
+}
+#orderManage .main-content .inline-div {
+  *zoom: 1;
+  padding: 15px 0px;
+}
+#orderManage .main-content .inline-div:before,
+#orderManage .main-content .inline-div:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#orderManage .main-content .inline-div:after {
+  clear: both;
+}
+#orderManage .main-content .inline-div span {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 2.5%;
+  background-image: url("../../img/03.3.png");
+  background-size: 100% 100%;
+}
+#orderManage .main-content .inline-div .shop-icon {
+  background-image: url("../../img/normal-orders.png");
+}
+#orderManage .main-content .inline-div h3 {
+  float: left;
+  width: 200px;
+  color: #53d2d8;
+  margin: 0px;
+}
+#orderManage .main-content .btn-primary {
+  background-color: #53d2d8;
+}
+#orderManage .main-content .btn-primary:hover {
+  background-color: rgba(83, 210, 216, 0.7);
+}
+#orderManage .wrap {
+  position: relative;
+}
+#orderManage .wrap #search {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: 2.5%;
+  background-image: url("../../img/03.2.png");
+  background-size: 100% 100%;
+}
+#orderManage .wrap input {
+  width: 95%;
+  margin: 0 auto;
+  padding-left: 30px;
+}
+#orderManage tbody tr #danger-orders {
+  position: relative;
+}
+#orderManage tbody tr #danger-orders #danger-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  background-image: url("../../img/03.1.png");
+  background-size: 100% 100%;
+}
+#orderManage tbody tr #danger-orders .badge {
+  position: absolute;
+  top: 2px;
+  right: 23%;
+  background-color: #D74B4C;
+}
+#orderManage tbody tr .align-left {
+  text-align: left;
+}
+#orderManage tbody tr #normal-orders #normal-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  background-image: url("../../img/normal-orders.png");
+  background-size: 100% 100%;
 }
