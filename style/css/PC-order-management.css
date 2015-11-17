@@ -52,7 +52,7 @@ body:after {
 }
 body .header {
   height: 75px;
-  background: #a7c731;
+  background: #A7C731;
 }
 body .header h1 {
   margin: 0 0 0 20px;
@@ -135,13 +135,13 @@ body .main-menu .list-group li a:active {
   text-decoration: none;
 }
 body .main-menu .list-group li:hover {
-  background: #1a1c1a;
+  background: #1A1C1A;
 }
 body .main-menu .list-group .active {
-  background: #a7c731;
+  background: #A7C731;
 }
 body .main-menu .list-group .active:hover {
-  background: #a7c731;
+  background: #A7C731;
 }
 body .main-menu .list-group li:first-child a {
   background: url("../../img/001.png") no-repeat 0 center;
@@ -188,7 +188,7 @@ body .content .main-content {
   width: 97%;
   min-height: 500px;
   margin: 20px auto;
-  border-top: solid 2px #a7c731;
+  border-top: solid 2px #A7C731;
   background: white;
   *zoom: 1;
 }
@@ -317,7 +317,7 @@ body .content .main-content .btn-border-none {
   border: none;
 }
 body .content .main-content .btn-primary {
-  background-color: #a7c731;
+  background-color: #A7C731;
 }
 body .content .main-content .btn-primary:hover {
   background-color: #8BA231;
@@ -383,14 +383,14 @@ body .trade-time .time {
 }
 .comment > .header {
   height: 75px;
-  background: #53d2d8;
+  background: #53D2D8;
 }
 .comment > .header h1 {
   padding-left: 150px;
   background: url("../../img/pm-transparent-logo.png") no-repeat 0 center;
 }
 .comment .main-menu {
-  background: #409ea0;
+  background: #409EA0;
 }
 .comment .main-menu img {
   float: none !important;
@@ -408,10 +408,10 @@ body .trade-time .time {
   background: rgba(83, 210, 216, 0.5);
 }
 .comment .main-menu .list-group .active {
-  background: #53d2d8;
+  background: #53D2D8;
 }
 .comment .main-menu .list-group .active:hover {
-  background: #53d2d8;
+  background: #53D2D8;
 }
 .comment .main-menu .list-group li:first-child a {
   background: url("../../img/pm-product.png") no-repeat 0 center;
@@ -431,10 +431,10 @@ body .trade-time .time {
 #productManage .main-content .main-content-header {
   font-size: 28px;
   font-weight: 100;
-  color: #53d2d8;
+  color: #53D2D8;
 }
 #productManage .main-content .btn-primary {
-  background-color: #53d2d8;
+  background-color: #53D2D8;
 }
 #productManage .main-content .btn-primary:hover {
   background-color: rgba(83, 210, 216, 0.7);
@@ -470,11 +470,11 @@ body .trade-time .time {
 #orderManage .main-content .inline-div h3 {
   float: left;
   width: 200px;
-  color: #53d2d8;
+  color: #53D2D8;
   margin: 0px;
 }
 #orderManage .main-content .btn-primary {
-  background-color: #53d2d8;
+  background-color: #53D2D8;
 }
 #orderManage .main-content .btn-primary:hover {
   background-color: rgba(83, 210, 216, 0.7);
