@@ -574,12 +574,40 @@ body .trade-time .time {
   width: 150px;
   margin-left: 60px;
 }
+#user-manage .main-content .all-stores-and-icon {
+  width: 955px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+#user-manage .main-content .all-stores-and-icon:before,
+#user-manage .main-content .all-stores-and-icon:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#user-manage .main-content .all-stores-and-icon:after {
+  clear: both;
+}
+#user-manage .main-content .all-stores-and-icon .icon {
+  display: inline-block !important;
+  width: 36px;
+  height: 36px;
+  background-image: url("../../img/home-icon.png");
+  float: left;
+}
+#user-manage .main-content .all-stores-and-icon .all-stores {
+  width: 910px;
+  float: left;
+  padding: 0 20px;
+}
 #user-manage .main-content .all-stores-and-icon .all-stores a {
   display: inline-block;
-  width: 94px;
-  height: 24px;
-  line-height: 24px;
+  width: 150px;
+  height: 38px;
+  line-height: 38px;
   padding-left: 15px;
+  margin-bottom: 10px;
+  margin-right: 20px;
   color: black;
   text-decoration: none;
   background-image: url("../../img/not-active-stores.png");
