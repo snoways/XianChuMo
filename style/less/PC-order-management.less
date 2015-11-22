@@ -692,3 +692,76 @@ body {
     }
   }
 }
+
+#person-manage{
+  .center-btn();
+  .main-content{
+    .inline-div-header{
+      margin: 10px 30px;
+      .background-icon(24px, "../../img/user.png");
+    }
+    .wrap{
+      .clearfix();
+      .search{
+        margin: 0 30px;
+        width: 720px;
+        float: left;
+        .background-icon(36px, "../../img/03.2.png");
+      }
+      .submit{
+        width: 200px;
+        float: left;
+        border: none;
+      }
+    }
+    .portrait{
+      width: 100px;
+      height: 100px;
+      margin-left: 25px;
+      margin-top: 10px;;
+      float: left;
+      margin-bottom: 10px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    .person-info{
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-left: 30px;
+      span{
+        display: block;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        font-size: 18px;
+      }
+      .name{
+        margin-top: 15px;
+        .background-icon(30px, "../../img/user.png");
+      }
+      .tel{
+        .background-icon(30px, "../../img/phone.png");
+      }
+      .wechat{
+        .background-icon(30px, "../../img/wechat-sm.png");
+      }
+    }
+    table{
+      thead{
+        td{
+          text-align: left;
+        }
+      }
+      .first{
+        //固定表格宽度
+        text-align: center;
+        table-layout:fixed;
+        word-break:break-all;
+        word-wrap:break-word;
+        width: 100px;
+      }
+    }
+  }
+}
