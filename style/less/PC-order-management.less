@@ -469,6 +469,39 @@ body {
   //一下是订单管理和门店管理的样式
   #orderManage{
     .main-content{
+      width:100%;
+      margin: 0px;
+      .manage-type{
+        ul{
+          background-color: #F5F9FD;
+          border-bottom: solid 1px #cccccc;
+          .clearfix();
+          li{
+            width:33.3%;
+            float: left;
+            text-align: center;
+            a{
+              display: block;
+              width:60%;
+              height:100%-2px;
+              padding:15px 0px;  
+              margin: 0 auto;     
+              font-size: 26px;
+              font-weight: 100;
+              color:black;
+              text-decoration: none;
+              border-bottom: solid 2px #ffffff;
+              &:hover{
+                border-bottom: solid 2px @Center-blue;
+              }
+
+            }
+            a.hover-line{
+              border-bottom: solid 2px @Center-blue;
+            }
+          }
+        }
+      }
       .inline-div{
         .clearfix();
         padding: 15px 0px;
@@ -486,9 +519,16 @@ body {
         }
         h3{
           float: left;
+          width:110px;
+          color:@Center-blue;
+          margin:0px;
+        }
+        h4{
+          float: left;
           width:200px;
           color:@Center-blue;
           margin:0px;
+          margin-top: 6px;
         }
       }
       border-top:none;
@@ -620,4 +660,35 @@ body {
     //以上是主内容
   }
   //以上是用户管理
+}
+//交易营业额统计
+.turnover-trade-time{
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  .trade-record{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    .clearfix();
+    li{
+      width:25%;
+      float: left;
+      text-align: center;
+      a{
+        display: block;
+        width:60%;
+        height:100%-2px;
+        padding:15px 0px;  
+        margin: 0 auto;     
+        font-size: 20px;
+        font-weight: 100;
+        color:black;
+        text-decoration: none;
+      }
+    }
+    li.hover-bg{
+      background-color: #F8F8F8;
+    }
+  }
 }
