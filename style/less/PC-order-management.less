@@ -52,9 +52,30 @@ a.btn.disabled{
 @PC-black:#1A1C1A;//管理员左边li的hover的颜色
 @Center-blue:#53D2D8;//管理中心的主色调
 @Center-menu:#409EA0;//管理中心左边菜单栏颜色
-@Center-lessBlue:rgba(83,210,216,0.5);//管理中心左边li的hover的颜色
-@Center-btn-hover:rgba(83,210,216,0.7);//管理中心中按钮hover的颜色
+//@Center-lessBlue:rgba(83,210,216,0.5);//管理中心左边li的hover的颜色
+@Center-lessBlue:#52D3D7;//管理中心左边li的hover的颜色
+//@Center-btn-hover:rgba(83,210,216,0.7);//管理中心中按钮hover的颜色
+@Center-btn-hover:#48B4B7;//管理中心中按钮hover的颜色
 
+
+//背景做图标，一般在左边的
+.background-icon(@icon-size: 36px; @url-string){
+  padding-left: @icon-size;
+  background-image: url(@url-string);
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+
+//调整中心页面按钮样式
+.center-btn(){
+  .btn-primary{
+    background-color: @Center-lessBlue;
+    border: none;
+  }
+  .btn-primary:hover{
+    background-color: @Center-btn-hover;
+  }
+}
 
 body {
   font-family: "微软雅黑", serif;
@@ -191,6 +212,26 @@ body {
       }
     }
     //主内容
+    .btn-border-none {
+      border: none;
+    }
+    .btn-primary {
+      background-color: @PC-green;
+    }
+    .btn-primary:hover {
+      background-color: #8BA231;
+    }
+    .active {
+      background-color: #414C3A;
+      color: white;
+    }
+    .active:hover {
+      background-color: #414C3A;
+    }
+    .active-green{
+      background-color: @PC-green;
+      color: white;
+    }
     .main-content {
       position: relative;
       width: 97%;
@@ -307,22 +348,6 @@ body {
       }
       > .btn:first-of-type {
         margin-left: 24px;
-      }
-      .btn-border-none {
-        border: none;
-      }
-      .btn-primary {
-        background-color: @PC-green;
-      }
-      .btn-primary:hover {
-        background-color: #8BA231;
-      }
-      .active {
-        background-color: #414C3A;
-        color: white;
-      }
-      .active:hover {
-        background-color: #414C3A;
       }
       table {
         width: 95%;
@@ -527,4 +552,61 @@ body {
       }
     }
   }
+}
+
+#user-manage {
+  //以下是用户管理
+  .center-btn();
+  .main-content {
+    //以下是主内容
+    .inline-div-header{
+      margin: 10px 30px;
+      .background-icon(24px, "../../img/user.png");
+    }
+    .wrap{
+      .clearfix();
+      .search{
+        margin: 0 30px;
+        width: 720px;
+        float: left;
+        .background-icon(36px, "../../img/03.2.png");
+      }
+      .submit{
+        width: 200px;
+        float: left;
+        border: none;
+      }
+    }
+    .trade-time{
+      .submit{
+        width: 150px;
+        margin-left: 60px;
+      }
+    }
+    .all-stores-and-icon{
+      .icon{
+
+      }
+      .all-stores{
+
+        a{
+          display: inline-block;
+          width: 94px;
+          height: 24px;
+          line-height: 24px;
+          padding-left: 15px;
+          color: black;
+          text-decoration: none;
+          background-image: url("../../img/not-active-stores.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        a:hover{
+          background-image: url("../../img/active-stores.png");
+        }
+      }
+    }
+    //以上是主内容
+  }
+  //以上是用户管理
 }

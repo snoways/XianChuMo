@@ -183,6 +183,26 @@ body .content .content-header .time {
   float: right;
   margin-right: 20px;
 }
+body .content .btn-border-none {
+  border: none;
+}
+body .content .btn-primary {
+  background-color: #A7C731;
+}
+body .content .btn-primary:hover {
+  background-color: #8BA231;
+}
+body .content .active {
+  background-color: #414C3A;
+  color: white;
+}
+body .content .active:hover {
+  background-color: #414C3A;
+}
+body .content .active-green {
+  background-color: #A7C731;
+  color: white;
+}
 body .content .main-content {
   position: relative;
   width: 97%;
@@ -313,22 +333,6 @@ body .content .main-content > .btn {
 body .content .main-content > .btn:first-of-type {
   margin-left: 24px;
 }
-body .content .main-content .btn-border-none {
-  border: none;
-}
-body .content .main-content .btn-primary {
-  background-color: #A7C731;
-}
-body .content .main-content .btn-primary:hover {
-  background-color: #8BA231;
-}
-body .content .main-content .active {
-  background-color: #414C3A;
-  color: white;
-}
-body .content .main-content .active:hover {
-  background-color: #414C3A;
-}
 body .content .main-content table {
   width: 95%;
   margin: 0 auto;
@@ -405,7 +409,7 @@ body .trade-time .time {
   margin-left: 20px;
 }
 .comment .main-menu .list-group li:hover {
-  background: rgba(83, 210, 216, 0.5);
+  background: #52D3D7;
 }
 .comment .main-menu .list-group .active {
   background: #53D2D8;
@@ -437,7 +441,7 @@ body .trade-time .time {
   background-color: #53D2D8;
 }
 #productManage .main-content .btn-primary:hover {
-  background-color: rgba(83, 210, 216, 0.7);
+  background-color: #48B4B7;
 }
 #orderManage .main-content {
   border-top: none;
@@ -477,7 +481,7 @@ body .trade-time .time {
   background-color: #53D2D8;
 }
 #orderManage .main-content .btn-primary:hover {
-  background-color: rgba(83, 210, 216, 0.7);
+  background-color: #48B4B7;
 }
 #orderManage .wrap {
   position: relative;
@@ -525,4 +529,63 @@ body .trade-time .time {
   vertical-align: middle;
   background-image: url("../../img/normal-orders.png");
   background-size: 100% 100%;
+}
+#user-manage .btn-primary {
+  background-color: #52D3D7;
+  border: none;
+}
+#user-manage .btn-primary:hover {
+  background-color: #48B4B7;
+}
+#user-manage .main-content .inline-div-header {
+  margin: 10px 30px;
+  padding-left: 24px;
+  background-image: url("../../img/user.png");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+#user-manage .main-content .wrap {
+  *zoom: 1;
+}
+#user-manage .main-content .wrap:before,
+#user-manage .main-content .wrap:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#user-manage .main-content .wrap:after {
+  clear: both;
+}
+#user-manage .main-content .wrap .search {
+  margin: 0 30px;
+  width: 720px;
+  float: left;
+  padding-left: 36px;
+  background-image: url("../../img/03.2.png");
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+#user-manage .main-content .wrap .submit {
+  width: 200px;
+  float: left;
+  border: none;
+}
+#user-manage .main-content .trade-time .submit {
+  width: 150px;
+  margin-left: 60px;
+}
+#user-manage .main-content .all-stores-and-icon .all-stores a {
+  display: inline-block;
+  width: 94px;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 15px;
+  color: black;
+  text-decoration: none;
+  background-image: url("../../img/not-active-stores.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#user-manage .main-content .all-stores-and-icon .all-stores a:hover {
+  background-image: url("../../img/active-stores.png");
 }
