@@ -38,7 +38,7 @@ a.btn.disabled {
 body {
   font-family: "微软雅黑", serif;
   background-color: #414C3A !important;
-  min-width: 1255px;
+  min-width: 1366px;
   *zoom: 1;
 }
 body:before,
