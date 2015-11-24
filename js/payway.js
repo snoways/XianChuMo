@@ -10,6 +10,10 @@
         $(".time-list li").click(addIcon);
         $("#mask").click(timeChooseHide);
         $("#dialog").click(stopPropagation);
+        //评价页面
+        $("#sub-evaluation").click(showDialog);
+        $("#mask").click(timeChooseHide);
+        $("#bg-evaluation").click(stopPropagation);
     }
 
     function changeIcon() {
@@ -43,5 +47,4 @@
         $(this).find(">span").addClass("now-icon");
         $(this).siblings().find(">span").removeClass("now-icon");
     }
-
 })();
