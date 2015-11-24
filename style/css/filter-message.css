@@ -9,7 +9,7 @@
   margin-left: 50%;
 }
 .active {
-  background-color: #53d2d8 !important;
+  background-color: #53D2D8 !important;
 }
 .header {
   height: 75px;
@@ -20,7 +20,7 @@
   height: 75px;
   line-height: 75px;
   font-size: 38px;
-  color: #a7e8ec;
+  color: #A7E8EC;
   padding-left: 150px;
   background: url("../../img/pm-logo.png") no-repeat 0 center;
 }
@@ -48,14 +48,14 @@
   float: left;
   display: inline;
   border-style: dashed solid dashed dashed;
-  border-color: transparent #a7e8ec transparent transparent;
+  border-color: transparent #A7E8EC transparent transparent;
   width: 0;
   height: 0;
   width: 0px;
   height: 0px;
   overflow: hidden;
   border-width: 15px;
-  border-color: transparent transparent transparent #a7e8ec;
+  border-color: transparent transparent transparent #A7E8EC;
   border-style: dashed dashed dashed solid;
 }
 .step-progress .right-angle-active {
@@ -63,14 +63,14 @@
   float: left;
   display: inline;
   border-style: dashed solid dashed dashed;
-  border-color: transparent #53d2d8 transparent transparent;
+  border-color: transparent #53D2D8 transparent transparent;
   width: 0;
   height: 0;
   width: 0px;
   height: 0px;
   overflow: hidden;
   border-width: 15px;
-  border-color: transparent transparent transparent #53d2d8;
+  border-color: transparent transparent transparent #53D2D8;
   border-style: dashed dashed dashed solid;
 }
 .step-progress .hollow-angle {
@@ -83,7 +83,7 @@
   height: 0px;
   overflow: hidden;
   border-width: 15px;
-  border-color: #a7e8ec #a7e8ec #a7e8ec transparent;
+  border-color: #A7E8EC #A7E8EC #A7E8EC transparent;
   border-style: solid solid solid dashed;
   margin-left: -28px;
 }
@@ -97,7 +97,7 @@
   height: 0px;
   overflow: hidden;
   border-width: 15px;
-  border-color: #53d2d8 #53d2d8 #53d2d8 transparent;
+  border-color: #53D2D8 #53D2D8 #53D2D8 transparent;
   border-style: solid solid solid dashed;
   margin-left: -28px;
 }
@@ -107,7 +107,7 @@
   width: 383px;
   height: 30px;
   text-align: center;
-  background-color: #a7e8ec;
+  background-color: #A7E8EC;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -135,7 +135,7 @@
   margin-top: 7px;
 }
 .container .content .form-group input {
-  border: solid 1px #53d2d8;
+  border: solid 1px #53D2D8;
 }
 .container .content .form-group .add-img {
   position: relative;
@@ -144,8 +144,8 @@
   font-size: 36px;
   font-weight: 100;
   padding: 0px 15px;
-  color: #53d2d8;
-  border: solid 1px #53d2d8;
+  color: #53D2D8;
+  border: solid 1px #53D2D8;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -194,7 +194,7 @@
   width: 200px;
 }
 .container .content .fill-recipe-form-group .input-group-addon {
-  background: #a7e8ec;
+  background: #A7E8EC;
 }
 .container .content .no-selected {
   position: absolute;
