@@ -656,6 +656,7 @@ a {
   margin: 10px;
 }
 .container .content .right-detail ul li .shop-detail a ._detail {
+  position: relative;
   float: left;
   display: inline;
   width: 50%;
@@ -696,6 +697,38 @@ a {
   -moz-border-radius: 5px;
   border-radius: 5px;
   font-size: 14px;
+  margin-bottom: 5px;
+}
+.container .content .right-detail ul li .shop-detail a ._detail .old-price {
+  *zoom: 1;
+  position: relative;
+}
+.container .content .right-detail ul li .shop-detail a ._detail .old-price:before,
+.container .content .right-detail ul li .shop-detail a ._detail .old-price:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container .content .right-detail ul li .shop-detail a ._detail .old-price:after {
+  clear: both;
+}
+.container .content .right-detail ul li .shop-detail a ._detail .old-price .old {
+  display: block;
+  position: relative;
+  font-style: normal;
+  font-size: 13px;
+  float: left;
+  margin-top: 2px;
+  margin-left: 4px;
+}
+.container .content .right-detail ul li .shop-detail a ._detail .old-price .first-line {
+  display: block;
+  position: absolute;
+  left: 36px;
+  top: 60px;
+  width: 38px;
+  height: 0;
+  border: solid 1px #656565;
 }
 .container .content .right-detail ul li .slogan {
   font-size: 12px;
