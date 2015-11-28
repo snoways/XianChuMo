@@ -35,7 +35,7 @@ label {
   z-index: 30;
   width: 100%;
   height: 44px;
-  background-color: #5dc890;
+  background-color: #5DC890;
 }
 .header .backspace {
   float: left;
@@ -316,10 +316,82 @@ a {
   font-size: 14px;
 }
 .love-search li a span:nth-of-type(1) {
-  color: #f43a52;
+  color: #F43A52;
 }
 .love-search li a span:nth-of-type(2) {
   color: #212121;
+}
+.home {
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  *zoom: 1;
+}
+.home:before,
+.home:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.home:after {
+  clear: both;
+}
+.home .logo {
+  display: block;
+  float: left;
+  width: 75px;
+  height: 40px;
+  margin-top: 2px;
+  margin-left: 5px;
+  background-image: url("../../img/logo.png");
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.home .adjust-home-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  float: left;
+  margin-top: 3px;
+}
+.home .adjust-home-icon .home-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 3px;
+  background-image: url("../../img/222.png");
+  background-size: cover;
+}
+.home .adjust-home-icon .home-text {
+  display: block;
+  width: 30px;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  color: white;
+}
+.vegetable-garden {
+  display: block;
+  width: 58px;
+  padding-left: 40px;
+  margin-top: 7px;
+  margin-right: 10px;
+  background-image: url("../../img/3.png");
+  background-position: 5px 0;
+  background-repeat: no-repeat;
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  -webkit-background-size: 30px;
+  background-size: 30px;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .search {
   position: fixed;
@@ -381,7 +453,7 @@ a {
   width: 37%;
   min-height: 1600px;
   height: 100%;
-  background-color: #ebebeb;
+  background-color: #EBEBEB;
 }
 .container .content .left-assortment ul {
   height: 100%;
@@ -590,20 +662,46 @@ a {
   padding-top: 10px;
 }
 .container .content .right-detail ul li .shop-detail a ._detail p {
-  height: 55px;
   width: 85%;
+  padding-bottom: 5px;
   font-size: 16px;
   font-weight: 100;
   color: #212121;
   overflow: hidden;
 }
+.container .content .right-detail ul li .shop-detail a ._detail strong {
+  position: absolute;
+  top: 35px;
+  width: 300px;
+  font-size: 12px;
+  color: #858585;
+}
 .container .content .right-detail ul li .shop-detail a ._detail span {
+  display: block;
+  float: left;
   font-size: 16px;
-  color: #f43a52;
+  color: #F43A52;
+  clear: both;
 }
 .container .content .right-detail ul li .shop-detail a ._detail i {
+  display: block;
+  float: left;
+  padding: 2px 5px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #5DC890;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   font-size: 14px;
-  color: #757575;
+}
+.container .content .right-detail ul li .slogan {
+  font-size: 12px;
+  color: #FFA59E;
+  margin-top: 13px;
+  width: 310px;
 }
 .container .content .right-detail ul li .shopping-car {
   position: absolute;
@@ -611,7 +709,7 @@ a {
   top: 10px;
   width: 45px;
   height: 45px;
-  background: url("../../img/shopping-car.png") #ebf8f2 no-repeat;
+  background: url("../../img/shopping-car.png") #EBF8F2 no-repeat;
   background-size: 80% 80%;
   background-position: center center;
   -webkit-border-radius: 50%;
