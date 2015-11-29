@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d3bd59-6229-4a5c-8d68-37aa6b47632f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/Product.css" afterPath="$PROJECT_DIR$/style/css/Product.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/account.css" afterPath="$PROJECT_DIR$/style/css/account.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/address-history.css" afterPath="$PROJECT_DIR$/style/css/address-history.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/all-orders.css" afterPath="$PROJECT_DIR$/style/css/all-orders.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/comment.css" afterPath="$PROJECT_DIR$/style/css/comment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/index.css" afterPath="$PROJECT_DIR$/style/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/me.css" afterPath="$PROJECT_DIR$/style/css/me.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/payment.css" afterPath="$PROJECT_DIR$/style/css/payment.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/product-info.css" afterPath="$PROJECT_DIR$/style/css/product-info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/product-info.html" afterPath="$PROJECT_DIR$/pages/product-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/less/product-info.less" afterPath="$PROJECT_DIR$/style/less/product-info.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search.html" afterPath="$PROJECT_DIR$/pages/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/red-packet.css" afterPath="$PROJECT_DIR$/style/css/red-packet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/regist.css" afterPath="$PROJECT_DIR$/style/css/regist.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/search.css" afterPath="$PROJECT_DIR$/style/css/search.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -106,8 +112,8 @@
           <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/search.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.520073">
-                  <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.34671533">
+                  <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -176,7 +182,7 @@
             <entry file="file://$PROJECT_DIR$/style/less/Product.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="-0.0">
-                  <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
+                  <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -502,7 +508,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16178624" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -885,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/less/Product.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -928,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.520073">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.34671533">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding />
         </state>
       </provider>
