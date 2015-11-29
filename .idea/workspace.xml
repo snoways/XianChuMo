@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d3bd59-6229-4a5c-8d68-37aa6b47632f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/Product.css" afterPath="$PROJECT_DIR$/style/css/Product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/account.css" afterPath="$PROJECT_DIR$/style/css/account.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/address-history.css" afterPath="$PROJECT_DIR$/style/css/address-history.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/all-orders.css" afterPath="$PROJECT_DIR$/style/css/all-orders.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/comment.css" afterPath="$PROJECT_DIR$/style/css/comment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/index.css" afterPath="$PROJECT_DIR$/style/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/me.css" afterPath="$PROJECT_DIR$/style/css/me.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/payment.css" afterPath="$PROJECT_DIR$/style/css/payment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/9.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/product-info.css" afterPath="$PROJECT_DIR$/style/css/product-info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/red-packet.css" afterPath="$PROJECT_DIR$/style/css/red-packet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/regist.css" afterPath="$PROJECT_DIR$/style/css/regist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/search.css" afterPath="$PROJECT_DIR$/style/css/search.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/product-info.html" afterPath="$PROJECT_DIR$/pages/product-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/less/product-info.less" afterPath="$PROJECT_DIR$/style/less/product-info.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/search.html" afterPath="$PROJECT_DIR$/pages/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +34,7 @@
           <file leaf-file-name="PC-order-management.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/PC/PC-order-management.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9642856">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
                   <folding />
                 </state>
@@ -59,7 +54,7 @@
           <file leaf-file-name="person-manage.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/CenterManage/person-manage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.464286">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
                   <folding />
                 </state>
@@ -69,7 +64,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.142858">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
                   <folding />
                 </state>
@@ -79,7 +74,7 @@
           <file leaf-file-name="Product.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/Product.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.534483">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="49" selection-end-column="38" />
                   <folding>
                     <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -98,11 +93,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product-info.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="product-info.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/product-info.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.512476">
-                  <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+                <state vertical-scroll-proportion="-0.90697676">
+                  <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="search.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/search.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.520073">
+                  <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -135,8 +140,8 @@
           <file leaf-file-name="fill-recipe.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/CenterManage/fill-recipe.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                <state vertical-scroll-proportion="-4.357143">
+                  <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -160,28 +165,28 @@
           <file leaf-file-name="PC-order-management.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style/less/PC-order-management.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-22.285715">
-                  <caret line="758" column="27" selection-start-line="758" selection-start-column="27" selection-end-line="758" selection-end-column="27" />
+                <state vertical-scroll-proportion="-3.8214285">
+                  <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Product.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Product.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style/less/Product.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.38251367">
+                <state vertical-scroll-proportion="-0.0">
                   <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product-info.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="product-info.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style/less/product-info.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.9310346">
-                  <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.47080293">
+                  <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
                   <folding />
                 </state>
               </provider>
@@ -214,7 +219,6 @@
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/pages/test.html" />
         <option value="$PROJECT_DIR$/pages/payment.html" />
-        <option value="$PROJECT_DIR$/pages/search.html" />
         <option value="$PROJECT_DIR$/pages/search-result.html" />
         <option value="$PROJECT_DIR$/style/less/search.less" />
         <option value="$PROJECT_DIR$/pages/regist.html" />
@@ -254,9 +258,10 @@
         <option value="$PROJECT_DIR$/pages/CenterManage/person-manage.html" />
         <option value="$PROJECT_DIR$/js/Product.js" />
         <option value="$PROJECT_DIR$/pages/Product.html" />
+        <option value="$PROJECT_DIR$/style/less/Product.less" />
         <option value="$PROJECT_DIR$/pages/product-info.html" />
         <option value="$PROJECT_DIR$/style/less/product-info.less" />
-        <option value="$PROJECT_DIR$/style/less/Product.less" />
+        <option value="$PROJECT_DIR$/pages/search.html" />
       </list>
     </option>
   </component>
@@ -268,10 +273,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-311" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -357,6 +362,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XianChuMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,16 +502,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-311" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16178624" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3284055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31467792" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8913386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31181103" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -502,6 +520,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -542,13 +561,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/less/comment.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -687,17 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CenterManage/fill-recipe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CenterManage/filter-product-message.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0357144">
@@ -820,17 +821,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/less/PC-order-management.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.285715">
-          <caret line="758" column="27" selection-start-line="758" selection-start-column="27" selection-end-line="758" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.142858">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
@@ -838,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/PC/PC-order-management.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9642856">
+        <state vertical-scroll-proportion="0.0">
           <caret line="167" column="31" selection-start-line="167" selection-start-column="31" selection-end-line="167" selection-end-column="31" />
           <folding />
         </state>
@@ -846,7 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/CenterManage/person-manage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
@@ -856,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <marker date="1448718853253" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,9 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1448718750506" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -887,7 +875,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/Product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.534483">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="10" selection-start-line="46" selection-start-column="10" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -895,26 +883,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/less/product-info.less">
+    <entry file="file://$PROJECT_DIR$/style/less/Product.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9310346">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/less/Product.less">
+    <entry file="file://$PROJECT_DIR$/pages/CenterManage/fill-recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38251367">
-          <caret line="276" column="17" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
+        <state vertical-scroll-proportion="-4.357143">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/less/PC-order-management.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8214285">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/less/product-info.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47080293">
+          <caret line="116" column="51" selection-start-line="116" selection-start-column="51" selection-end-line="116" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/product-info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.512476">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state vertical-scroll-proportion="-0.90697676">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.520073">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
