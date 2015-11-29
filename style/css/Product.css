@@ -35,7 +35,7 @@ label {
   z-index: 30;
   width: 100%;
   height: 44px;
-  background-color: #5DC890;
+  background-color: #5dc890;
 }
 .header .backspace {
   float: left;
@@ -196,6 +196,24 @@ label {
   background-image: url("../../img/xianyouhui.png");
   background-size: 100% 100%;
 }
+#garden .footer-active {
+  background-image: url("../../img/Hcaiyuanzi.png") !important;
+}
+#garden .footer-active + i {
+  color: #5dc890 !important;
+}
+#basket .footer-active {
+  background-image: url("../../img/Hcaiyuanzi.png") !important;
+}
+#basket .footer-active + i {
+  color: #5dc890 !important;
+}
+#footer-me .footer-active {
+  background-image: url("../../img/hoverMe.png") !important;
+}
+#footer-me .footer-active + i {
+  color: #5dc890 !important;
+}
 .border-raduis {
   border-radius: 10px;
 }
@@ -316,7 +334,7 @@ a {
   font-size: 14px;
 }
 .love-search li a span:nth-of-type(1) {
-  color: #F43A52;
+  color: #f43a52;
 }
 .love-search li a span:nth-of-type(2) {
   color: #212121;
@@ -453,7 +471,7 @@ a {
   width: 37%;
   min-height: 1600px;
   height: 100%;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 .container .content .left-assortment ul {
   height: 100%;
@@ -681,7 +699,7 @@ a {
   display: block;
   float: left;
   font-size: 16px;
-  color: #F43A52;
+  color: #f43a52;
   clear: both;
 }
 .container .content .right-detail ul li .shop-detail a ._detail i {
@@ -692,7 +710,7 @@ a {
   line-height: 20px;
   margin-top: 20px;
   color: white;
-  background-color: #5DC890;
+  background-color: #5dc890;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -742,7 +760,7 @@ a {
   top: 10px;
   width: 45px;
   height: 45px;
-  background: url("../../img/shopping-car.png") #EBF8F2 no-repeat;
+  background: url("../../img/shopping-car.png") #ebf8f2 no-repeat;
   background-size: 80% 80%;
   background-position: center center;
   -webkit-border-radius: 50%;
@@ -763,10 +781,4 @@ a {
   padding: 1px;
   width: 30px;
   height: 32px;
-}
-.footer #icon2 {
-  background-image: url("../../img/Hcaiyuanzi.png") !important;
-}
-.footer #icon2 + i {
-  color: #5DC890 !important;
 }
