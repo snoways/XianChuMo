@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d3bd59-6229-4a5c-8d68-37aa6b47632f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/Product.css" afterPath="$PROJECT_DIR$/style/css/Product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Product.html" afterPath="$PROJECT_DIR$/pages/Product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/account.css" afterPath="$PROJECT_DIR$/style/css/account.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/address-history.css" afterPath="$PROJECT_DIR$/style/css/address-history.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/all-orders.css" afterPath="$PROJECT_DIR$/style/css/all-orders.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/comment.css" afterPath="$PROJECT_DIR$/style/css/comment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/index.css" afterPath="$PROJECT_DIR$/style/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/me.css" afterPath="$PROJECT_DIR$/style/css/me.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/payment.css" afterPath="$PROJECT_DIR$/style/css/payment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/product-info.css" afterPath="$PROJECT_DIR$/style/css/product-info.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/red-packet.css" afterPath="$PROJECT_DIR$/style/css/red-packet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/regist.css" afterPath="$PROJECT_DIR$/style/css/regist.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/search-result.css" afterPath="$PROJECT_DIR$/style/css/search-result.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/search.css" afterPath="$PROJECT_DIR$/style/css/search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/filter-product-message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/fill-recipe.js" afterPath="$PROJECT_DIR$/js/fill-recipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/css/filter-message.css" afterPath="$PROJECT_DIR$/style/css/filter-message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/less/filter-message.less" afterPath="$PROJECT_DIR$/style/less/filter-message.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/CenterManage/filter-product-message.html" afterPath="$PROJECT_DIR$/pages/CenterManage/filter-product-message.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
@@ -39,6 +30,16 @@
     <splitter split-orientation="horizontal" split-proportion="0.5033751">
       <split-first>
         <leaf>
+          <file leaf-file-name="fill-recipe.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/fill-recipe.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.50082374">
+                  <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="PC-order-management.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/PC/PC-order-management.html">
               <provider selected="true" editor-type-id="text-editor">
@@ -52,17 +53,17 @@
           <file leaf-file-name="filter-message.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style/less/filter-message.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.8275862">
-                  <caret line="193" column="5" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
+                <state vertical-scroll-proportion="-0.20689656">
+                  <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Product.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Product.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pages/Product.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.9343696">
+                <state vertical-scroll-proportion="-19.321428">
                   <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
                   <folding>
                     <element signature="n#li#7;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -132,39 +133,49 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/search.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="fill-recipe.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/fill-recipe.js">
+          <file leaf-file-name="fill-recipe.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/CenterManage/fill-recipe.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+                <state vertical-scroll-proportion="-2.7068965">
+                  <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+                  <folding>
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="filter-product-message.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/CenterManage/filter-product-message.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.75774133">
+                  <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="fill-recipe.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/CenterManage/fill-recipe.html">
+          <file leaf-file-name="CenterManage.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/Centerjs/CenterManage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42141622">
-                  <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="filter-product-message.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/filter-product-message.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -209,28 +220,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="all-orders.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style/less/all-orders.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="297" column="20" selection-start-line="297" selection-start-column="20" selection-end-line="297" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#3936#4953#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PC-order-management.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/style/less/PC-order-management.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="66" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Product.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/style/less/Product.less">
               <provider selected="true" editor-type-id="text-editor">
@@ -270,7 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/pages/test.html" />
         <option value="$PROJECT_DIR$/pages/payment.html" />
         <option value="$PROJECT_DIR$/pages/search-result.html" />
@@ -294,9 +282,7 @@
         <option value="$PROJECT_DIR$/js/add-address.js" />
         <option value="$PROJECT_DIR$/pages/account.html" />
         <option value="$PROJECT_DIR$/pages/PC/PC-evaluate.html" />
-        <option value="$PROJECT_DIR$/pages/CenterManage/filter-product-message.html" />
         <option value="$PROJECT_DIR$/style/less/fill-recipe.less" />
-        <option value="$PROJECT_DIR$/js/fill-recipe.js" />
         <option value="$PROJECT_DIR$/style/css/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/js/test.json" />
         <option value="$PROJECT_DIR$/style/less/all-orders.less" />
@@ -319,8 +305,11 @@
         <option value="$PROJECT_DIR$/pages/CenterManage/user-manage.html" />
         <option value="$PROJECT_DIR$/pages/PC/PC-trading-recode.html" />
         <option value="$PROJECT_DIR$/pages/PC/PC-turnover.html" />
-        <option value="$PROJECT_DIR$/style/less/filter-message.less" />
         <option value="$PROJECT_DIR$/pages/Product.html" />
+        <option value="$PROJECT_DIR$/pages/CenterManage/filter-product-message.html" />
+        <option value="$PROJECT_DIR$/js/filter-product-message.js" />
+        <option value="$PROJECT_DIR$/style/less/filter-message.less" />
+        <option value="$PROJECT_DIR$/js/fill-recipe.js" />
       </list>
     </option>
   </component>
@@ -440,7 +429,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="PC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XianChuMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="CenterManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XianChuMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XianChuMo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Centerjs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -624,20 +663,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style/less/account.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.072607264">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/css/account.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -687,14 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/fill-recipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17303371">
@@ -723,13 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32258064">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CenterManage/filter-product-message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -972,10 +982,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.321428">
+          <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+          <folding>
+            <element signature="n#li#7;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CenterManage/fill-recipe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42141622">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.7068965">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#0;n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -983,22 +1004,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/less/filter-message.less">
+    <entry file="file://$PROJECT_DIR$/js/Centerjs/CenterManage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8275862">
-          <caret line="193" column="5" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/Product.html">
+    <entry file="file://$PROJECT_DIR$/js/filter-product-message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9343696">
-          <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
-          <folding>
-            <element signature="n#li#7;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CenterManage/filter-product-message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75774133">
+          <caret line="110" column="47" selection-start-line="110" selection-start-column="47" selection-end-line="110" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/less/filter-message.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.20689656">
+          <caret line="185" column="29" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/fill-recipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50082374">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
