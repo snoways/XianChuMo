@@ -35,7 +35,7 @@ label {
   z-index: 30;
   width: 100%;
   height: 44px;
-  background-color: #5DC890;
+  background-color: #5dc890;
 }
 .header .backspace {
   float: left;
@@ -200,19 +200,19 @@ label {
   background-image: url("../../img/Hcaiyuanzi.png") !important;
 }
 #garden .footer-active + i {
-  color: #5DC890 !important;
+  color: #5dc890 !important;
 }
 #basket .footer-active {
   background-image: url("../../img/Hcailanzi.png") !important;
 }
 #basket .footer-active + i {
-  color: #5DC890 !important;
+  color: #5dc890 !important;
 }
 #footer-me .footer-active {
   background-image: url("../../img/hoverMe.png") !important;
 }
 #footer-me .footer-active + i {
-  color: #5DC890 !important;
+  color: #5dc890 !important;
 }
 .border-raduis {
   border-radius: 10px;
@@ -358,7 +358,7 @@ a {
   font-size: 14px;
 }
 .love-search li a span:nth-of-type(1) {
-  color: #F43A52;
+  color: #f43a52;
 }
 .love-search li a span:nth-of-type(2) {
   color: #212121;
@@ -562,7 +562,7 @@ body {
 }
 .container .regulations ul li a span:nth-of-type(2) em {
   font-style: normal;
-  color: #F43A52;
+  color: #f43a52;
   font-size: 18px;
   margin-right: 10px;
 }
@@ -698,13 +698,13 @@ body {
 }
 .pay i {
   font-size: 20px;
-  color: #F43A52;
+  color: #f43a52;
 }
 .pay button {
   float: right;
   display: inline;
   padding: 10px;
-  background-color: #F43A52;
+  background-color: #f43a52;
   border: none;
   border-radius: 10px;
   font-size: 20px;
@@ -749,17 +749,17 @@ body {
   margin-left: 10px;
 }
 #dialog .time-list li:first-child {
-  color: #5DC890;
+  color: #5dc890;
 }
 #dialog .now-icon {
   background-image: url("../../img/payment-check.png");
 }
 #dialog button {
   background-color: #ffffff;
-  color: #5DC890;
+  color: #5dc890;
   font-size: 18px;
   padding: 5px 10px;
-  border: solid 1px #5DC890;
+  border: solid 1px #5dc890;
   border-radius: 12px;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -769,35 +769,43 @@ body {
   position: absolute;
   width: 320px;
   height: 300px;
-  top: -100px;
-  left: -45px;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -150px;
   z-index: 0;
 }
 #dialog .thank {
+  width: 200px;
   font-size: 14px;
   color: #212121;
+  text-align: center;
   z-index: 1;
 }
 #dialog .thank:nth-of-type(1) {
   position: absolute;
-  top: -20px;
-  left: 55px;
+  top: -70px;
+  left: 50%;
+  margin-left: -100px;
 }
 #dialog .thank:nth-of-type(2) {
   position: absolute;
-  top: -5px;
-  left: 55px;
+  top: -55px;
+  left: 50%;
+  margin-left: -100px;
 }
 #dialog .thank:nth-of-type(3) {
   position: absolute;
-  top: 10px;
-  left: 55px;
+  top: -40px;
+  left: 50%;
+  margin-left: -100px;
 }
 #dialog #evaluate-continue {
   position: absolute;
-  top: 30px;
-  left: 70px;
-  background-color: #F43A52;
+  top: -20px;
+  left: 50%;
+  margin-left: -40px;
+  background-color: #f43a52;
   color: #ffffff;
   font-size: 12px;
   border: none;
@@ -843,6 +851,7 @@ body {
   font-size: 14px;
   color: #757575;
   margin-bottom: 10px;
+  margin-left: 5%;
 }
 .evaluate-content ul li .text-evaluate textarea {
   width: 70%;
@@ -864,11 +873,12 @@ body {
 }
 .evaluate-content ul li .wrap h3 {
   display: block;
-  width: 70px;
+  width: 60px;
   float: left;
   display: inline;
   margin: 0px;
   padding: 0px;
+  margin-left: 5%;
   font-size: 20px;
   color: #212121;
 }
@@ -901,4 +911,9 @@ body {
   height: 22px;
   background-image: url("../../img/16.png");
   background-size: 100% 100%;
+}
+textarea[placeholder],
+[placeholder],
+*[placeholder] {
+  font-size: 14px !important;
 }
