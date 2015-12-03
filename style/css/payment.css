@@ -404,7 +404,7 @@ body {
   width: 70%;
   float: left;
   display: inline;
-  padding-top: 20px;
+  padding-top: 12px;
 }
 .container .address a .receiver-detail p {
   font-size: 16px;
@@ -416,8 +416,10 @@ body {
   display: inline;
 }
 .container .address a .receiver-detail p:nth-of-type(2) {
+  max-height: 37px;
   margin-top: 12px;
   font-size: 14px;
+  overflow: hidden;
 }
 .container .address a span:nth-of-type(2) {
   float: right;
@@ -681,7 +683,10 @@ body {
 .container .purchase ul li .way {
   float: right;
   display: inline;
-  background-image: url("../../img/payway.png");
+  width: 30px;
+  height: 30px;
+  border: solid 1px #cccccc;
+  border-radius: 50%;
 }
 .pay {
   box-sizing: border-box;
@@ -692,11 +697,16 @@ body {
   border-top: solid 1px #cccccc;
   background-color: #ffffff;
 }
-.pay span {
+.pay .inline-wrap {
+  float: left;
+  display: inline;
+  margin-top: 8px;
+}
+.pay .inline-wrap span {
   font-size: 20px;
   color: #212121;
 }
-.pay i {
+.pay .inline-wrap i {
   font-size: 20px;
   color: #F43A52;
 }
