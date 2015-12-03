@@ -14,7 +14,9 @@
         $("#sub-evaluation").click(showDialog);
         $("#mask").click(timeChooseHide);
         $("#bg-evaluation").click(stopPropagation);
-        $(document).on("click",".star",changeStatus);
+        $(document).on("click", ".star", changeStatus);
+        //勾选所有星星的input
+        $(".star").siblings().prop("checked", true);
     }
 
     function changeIcon() {
@@ -23,42 +25,60 @@
     }
 
     function switchCheckbox() {
-        if($(this).attr("class").split(" ")[1]=="on"){
+        if ($(this).attr("class").split(" ")[1] == "on") {
             $(this).removeClass("on").addClass("off");
             $(this).parent().find("input").prop("checked", false);
-        }else{
+        } else {
             $(this).removeClass("off").addClass("on");
             $(this).parent().find("input").prop("checked", true);
         }
     }
-    function showDialog(){
+
+    function showDialog() {
         setElement.g('dialog').style.display = 'block';
         setElement.g('mask').style.display = 'block';
-        setElement.autoCenter( setElement.g('dialog') );
-        setElement.fillToBody( setElement.g('mask') );
+        setElement.autoCenter(setElement.g('dialog'));
+        setElement.fillToBody(setElement.g('mask'));
     }
-    function timeChooseHide(){
+
+    function timeChooseHide() {
         setElement.g('dialog').style.display = 'none';
         setElement.g('mask').style.display = 'none';
     }
-    function stopPropagation(e){
+
+    function stopPropagation(e) {
         e.stopPropagation();
     }
-    function addIcon(){
+
+    function addIcon() {
         $(this).find(">span").addClass("now-icon");
         $(this).siblings().find(">span").removeClass("now-icon");
     }
+
     //评价页面的星星变化
-    function changeStatus(){
-        var status=$(this).attr("status");
-        if(status==1){
-          $(this).parent().nextAll().find(".star").css({"background-image":"url('../../web/img/161.png')"});
-          $(this).parent().nextAll().find(".star").attr("status","0");
-      }else{
-        $(this).css({"background-image":"url('../../web/img/16.png')"});
-        $(this).parent().prevAll().find(".star").css({"background-image":"url('../../web/img/16.png')"});
-        $(this).get(0).setAttribute("status", "1");
-        $(this).parent().prevAll().find(".star").attr("status","1");
+    function changeStatus() {
+        var status = $(this).attr("status");
+        if (status == 1) {
+            //灭
+            var $stars = $(this).parent().nextAll().find(".star");
+            $stars.css({"background-image": "url('../../web/img/161.png')"});
+            $stars.attr("status", "0");
+            $stars.siblings().prop("checked", false);
+        } else {
+            //亮
+            var $stars = $(this).parent().prevAll().find(".star");
+            $(this).css({"background-image": "url('../../web/img/16.png')"});
+            $stars.css({"background-image": "url('../../web/img/16.png')"});
+            $(this).get(0).setAttribute("status", "1");
+            $stars.attr("status", "1");
+            $(this).siblings().prop("checked", true);
+            $stars.siblings().prop("checked", true);
+
+        }
+        updateCheckbox($(this));
     }
-}
+
+    function updateCheckbox($clickStar){
+
+    }
 })();

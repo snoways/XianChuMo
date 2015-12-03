@@ -30,6 +30,9 @@ a,
 label {
   outline: none;
 }
+.hidden {
+  display: none;
+}
 .header {
   position: fixed;
   z-index: 30;
@@ -917,10 +920,12 @@ body {
 }
 .evaluate-content ul li .wrap .range ul li span {
   display: block;
-  width: 22px;
-  height: 22px;
+  width: 32px;
+  height: 32px;
   background-image: url("../../img/16.png");
-  background-size: 100% 100%;
+  background-size: 80% 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 textarea[placeholder],
 [placeholder],

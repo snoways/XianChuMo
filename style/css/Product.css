@@ -30,6 +30,9 @@ a,
 label {
   outline: none;
 }
+.hidden {
+  display: none;
+}
 .header {
   position: fixed;
   z-index: 30;
