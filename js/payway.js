@@ -16,7 +16,7 @@
         $("#bg-evaluation").click(stopPropagation);
         $(document).on("click", ".star", changeStatus);
         //勾选所有星星的input
-        $(".star").siblings().prop("checked", true);
+        $(".starts-count").val(5);
     }
 
     function changeIcon() {
@@ -58,12 +58,15 @@
     //评价页面的星星变化
     function changeStatus() {
         var status = $(this).attr("status");
+        var count = 5;
         if (status == 1) {
             //灭
             var $stars = $(this).parent().nextAll().find(".star");
             $stars.css({"background-image": "url('../../web/img/161.png')"});
             $stars.attr("status", "0");
-            $stars.siblings().prop("checked", false);
+            //$stars.siblings().prop("checked", false);
+            count = $(this).parent().index()+1;
+            $(this).parent().parent().siblings().val(count);
         } else {
             //亮
             var $stars = $(this).parent().prevAll().find(".star");
@@ -71,9 +74,10 @@
             $stars.css({"background-image": "url('../../web/img/16.png')"});
             $(this).get(0).setAttribute("status", "1");
             $stars.attr("status", "1");
-            $(this).siblings().prop("checked", true);
-            $stars.siblings().prop("checked", true);
-
+            //$(this).siblings().prop("checked", true);
+            //$stars.siblings().prop("checked", true);
+            count = $(this).parent().index()+1;
+            $(this).parent().parent().siblings().val(count);
         }
         updateCheckbox($(this));
     }
